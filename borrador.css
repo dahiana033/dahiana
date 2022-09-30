@@ -1,0 +1,420 @@
+.caja_1
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 8vw;    
+}
+
+.caja_3
+{
+    padding-top: 15px;
+    font-size: 20px ;
+}
+.caja_2
+{
+    padding-top: 10vh;
+    font-size: 20px;
+} 
+
+.shop
+{
+    padding-top: 3%;
+    padding-left:7%;
+    font-size: 18px;
+}
+.letras4
+{
+    padding-top: 0%;
+    padding-left:7%;
+    font-size: 30px;
+}
+.twiter
+{   
+    padding-top: 0%;
+    padding-left:90%;
+   
+}
+.pesos
+{
+    padding-top: 250px;
+    padding-left: 10px;
+}
+.details
+{
+    padding-top: 250px;
+}
+.sale
+{
+    padding-top: 250px ;
+}
+.logotipo
+{
+    padding-left: 25px;
+    padding-top: 60px;
+    image-rendering: 50px;
+}
+.img
+{
+   padding-left: 30px;
+   padding-top: 10px;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+:root
+{
+    --primary-color: #eb5757;
+    --secondary-color: #222;
+    --light-color: #f9f9f9;
+    --dark-color: #333;
+}
+header
+{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+}
+header .COVID
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+    
+}
+header .COVID button{
+    width: 150px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 18px;
+    border:none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+header .COVID p{
+    font-size: 18px;
+}
+header .MENU{
+width: 100%;
+height: 75px;
+padding: 0 170px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: var(--light-color);
+}
+header .MENU div
+{
+width: 600px;
+height: 45px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .MENU div a
+{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+header .MENU div a:hover
+{
+    background-color: var(--secondary-color);
+}
+header .MENU div button
+{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: black;
+    background-image: url("carrito.jpg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+header .MENU div button span
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+header .icono
+{
+   background-image: url(acme1.png);
+}
+main{
+    padding-top: 150px;
+}
+.calis
+{
+    background-color: rgb(0, 0, 0);
+}
+main .cajaprueba
+{
+    height: 500px;
+    background-image: url("montañas.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .cajaprueba
+{
+    color: white;
+    padding-left: 21vw;
+    padding-top: 10vh;
+    font-size: 30px;
+    
+}
+.cajaprueba1
+{
+background-color: transparent;
+color: #ffffff;
+padding-top: 4px;
+border-radius: 5px;
+border-color: white;
+font-size: 15px;
+text-align: center;
+font-family: Sen, sans-serif;
+width: 10vw;
+height: 5vh;
+}
+main .cajaprueba .cajaprueba1:hover
+{
+    color: black;
+    background-color: var(--light-color);
+}
+main .contenedor div
+{
+    display: inline-block;
+    width: 320px;
+    height: 250px;
+}
+.contenedor
+{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-between;
+
+}
+.contenedor article
+{
+    padding: 30px;
+}
+.contenedor .uno
+{
+    background-image: url("paisaje_1.jpg");
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    min-height: 330px;
+
+}
+.uno_1
+{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 20px;
+    
+  
+}
+.contenedor .dos
+{
+    background-image: url("vista.jpg");
+    width:300px;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    min-height: 330px;
+}
+.contenedor .tres
+{
+    background-image: url("paisaje_2.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 4%;
+    min-height: 330px;
+
+}
+main .cajaprueba2
+{
+    height: 500px;
+    background-image: url("imagen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cajaprueba2
+{
+color: white;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-left: 65vw;
+padding-top: 13vh;
+}
+main .boton2
+{
+  color: var(--secondary-color);
+  background-color: var(--light-color);
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: var(--light-color);
+  width: 10vw;
+  height: 6vh;
+  text-align: center;
+  
+}
+.cajaprueba2 .boton2:hover
+{
+background-color: var(--primary-color);
+color: var(--light-color);
+border-color: var(--primary-color);
+}
+main .contenedor1 div{
+    display: inline-block;
+    width: 320px;
+    height: 250px;
+}
+.contenedor1
+{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.apoyo1
+{
+   background-image: url(acampando.jpg);
+   padding: 10px;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.apoyo2
+{
+    background-image: url(taza.jpg);
+    
+    padding: 10px;
+    height: 500px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.apoyo3
+{
+    padding-left: 30px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apoyo3_1
+{
+    background-image: url(mochila.jpg);
+    padding: 10px;
+    height: 500px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor3
+{
+   background-color: black;
+   color: white;
+   width: 50%;
+   height: 400px;
+   padding-left: 70px;
+   display: inline-block;
+   padding-right: 20vh;
+   z-index: -1;
+   margin-left: 40vw;
+   
+   
+}
+.caja4
+{
+    margin-left: -200px;
+    margin-bottom: 400vh;
+    padding-top: 10px;
+    width: 500px;
+    height: 800px;
+    z-index: 0;
+    background-image: url(paisaje_2.jpg);
+    background-repeat: no-repeat;
+}
+.but
+{
+    padding-left: 50%;
+    padding-top:3%;
+    /* color: aqua; */
+
+}
+
+
+.contenedor4
+{
+    display: inline-block;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: white;
+    top: 20px;
+    position: relative;
+}
+.mover
+{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    text-align: center;
+}
+main .apoyo7
+{
+    text-align: center,justify;
+    
+    top: 10px;
+    left: 5px;
+}
